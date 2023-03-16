@@ -1,0 +1,32 @@
+.main-container {
+  background-color: #161624;
+  background-size: cover;
+  min-height: 150vh;
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-left: 30px;
+}
+.list-countries {
+  overflow-y: scroll;
+  height: 400px;
+  width: 100%;
+  list-style-type: none;
+  margin-right: 100px;
+}
+.visited-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.no-view {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-left: 25px;
+  text-align: center;
+}
